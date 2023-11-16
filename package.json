@@ -1,0 +1,18 @@
+
+{
+  "name": "stylelint-styled-components-debug",
+  "version": "0.1.0",
+  "author": "Michal Pech <michalpechnet@gmail.com>",
+  "scripts": {
+    "lint:css": "stylelint \"src/**/*.{ts,tsx}\" --max-warnings=0"
+  },
+  "dependencies": {
+    "styled-components": "6.1.1"
+  },
+  "devDependencies": {
+    "postcss-styled-syntax": "0.5.0",
+    "stylelint": "15.11.0",
+    "stylelint-config-standard": "34.0.0",
+    "typescript": "5.2.2"
+  }
+}
